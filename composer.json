@@ -1,0 +1,26 @@
+{
+    "name": "ifc/notificabr",
+    "description": "NotificaBR Wrapper from Brazilian Governement Service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IFC\\NotificaBr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago Heineck"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "firebase/php-jwt": ">=6.1",
+        "guzzlehttp/guzzle": ">=7.3",
+        "nesbot/carbon": ">= 2.53.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">= 9.3"
+    }
+}
